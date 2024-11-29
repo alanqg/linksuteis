@@ -193,6 +193,10 @@ footer span{
    
 }
 @media screen and (max-width: 451px ){
+        header{
+            width: 400px;
+            height: 250px;
+        }
     .container > div{
         height: 150px;
         width: 420px;
@@ -212,5 +216,9 @@ footer span{
         text-decoration: none;
         border-radius: 25px;
         box-shadow: 2px 3px 5px brown;
+        }
+        footer{
+            width: 400px;
+            height: 250px;
         }
 }

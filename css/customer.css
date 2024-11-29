@@ -198,8 +198,8 @@ footer span{
             height: 250px;
         }
     .container > div{
-        height: 150px;
-        width: 420px;
+        height: 100%;
+        width: 100%;
         margin: 15px;
         border-radius: 25px;
         box-shadow: 2px 3px 5px brown;
@@ -210,15 +210,15 @@ footer span{
         display: grid;
     }
     .container ul li a{
-        width: 15px;
-        height: 15px;
+     
         color: brown;
         text-decoration: none;
         border-radius: 25px;
         box-shadow: 2px 3px 5px brown;
         }
         footer{
-            width: 400px;
-            height: 250px;
+            height: 100%;
+            width: 100%;
+            margin: 15px;
         }
 }

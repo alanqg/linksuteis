@@ -20,6 +20,7 @@ font-size: 35px;
 text-shadow: 2px 3px 5px #000;
 }
 header > p{
+padding: 25px;
 padding-top: 15px;
 font-size: 28px;
 font-family: sans-serif;
@@ -122,4 +123,63 @@ footer span{
     font-style: normal;
     font-size: 35px;
     text-shadow: 2px 3px 5px #000;
+}
+
+/*Media Queris*/
+@media screen and (max-width: 680px ) {
+
+    header > h1{
+     
+        font-size: 35px;
+        }
+        header > p{
+            font-size: 18px;
+            padding: 25px;
+            font-size: 28px;
+            font-family: sans-serif;
+            font-weight: 500;
+            font-style: normal;
+        }
+        .container{
+            display: block;
+        }
+        .container > div{
+            height: 250px;
+            width: 620px;
+            margin: 15px;
+            border-radius: 25px;
+            box-shadow: 2px 3px 5px brown;
+            text-align: center;
+            padding-top: 10px;
+            }
+} 
+@media screen and (max-width: 620px ) {
+    .container > div{
+        height: 150px;
+        width: 520px;
+        margin: 15px;
+        border-radius: 25px;
+        box-shadow: 2px 3px 5px brown;
+        text-align: center;
+        padding-top: 10px;
+        }
+    .container{
+        display: grid;
+    }
+    .container ul{
+        margin-top: 10px;
+        }
+        .container ul li{
+            list-style: none;
+            padding: 10px;
+            }
+            .container ul li a{
+                width: 35px;
+                height: 35px;
+                color: brown;
+                text-decoration: none;
+                border-radius: 25px;
+                box-shadow: 2px 3px 5px brown;
+                }
+   
 }

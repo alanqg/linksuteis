@@ -154,6 +154,9 @@ footer span{
             }
 } 
 @media screen and (max-width: 620px ) {
+        header{
+            width: 100%;
+        }
     .container > div{
         height: 150px;
         width: 520px;
@@ -170,10 +173,13 @@ footer span{
         margin-top: 10px;
         }
         .container ul li{
+            display: inline-block;
+            margin: 0 auto;
             list-style: none;
             padding: 10px;
             }
             .container ul li a{
+                
                 width: 35px;
                 height: 35px;
                 color: brown;

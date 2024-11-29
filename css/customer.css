@@ -154,11 +154,15 @@ footer span{
             }
 } 
 @media screen and (max-width: 620px ) {
-        header{
+        header h1{
+            font-size: 20px;
             width: 100%;
         }
+        header p{
+            font-size: 18px;
+        }
     .container > div{
-        height: 150px;
+        height: 200px;
         width: 520px;
         margin: 15px;
         border-radius: 25px;
@@ -179,7 +183,6 @@ footer span{
             padding: 10px;
             }
             .container ul li a{
-                
                 width: 35px;
                 height: 35px;
                 color: brown;
@@ -188,4 +191,26 @@ footer span{
                 box-shadow: 2px 3px 5px brown;
                 }
    
+}
+@media screen and (max-width: 451px ){
+    .container > div{
+        height: 150px;
+        width: 420px;
+        margin: 15px;
+        border-radius: 25px;
+        box-shadow: 2px 3px 5px brown;
+        text-align: center;
+        padding-top: 10px;
+        }
+    .container{
+        display: grid;
+    }
+    .container ul li a{
+        width: 15px;
+        height: 15px;
+        color: brown;
+        text-decoration: none;
+        border-radius: 25px;
+        box-shadow: 2px 3px 5px brown;
+        }
 }

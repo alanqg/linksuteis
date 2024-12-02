@@ -1,4 +1,4 @@
-   /*Links usados*/
+        /*Links usados*/
         /*Cores  ==> https://www.colourlovers.com/palette/367239/the_shrike*/
         /*Titilos*/
         @import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
@@ -32,13 +32,18 @@
             background-color: var(--cor-titulos);
             color: var(--cor-paragrafos);
             text-align: center;
-            box-shadow: 8px 2px 6px var(--cor-span-header);;
+            box-shadow: 8px 2px 6px var(--cor-span-header);
         }
         header h1{
             padding: 15px;
             letter-spacing: 8px;
             font-size: 60px;
             text-shadow: 8px 2px 6px var(--cor-span-header);
+        }
+        header h1:hover{
+            color: var(--cor-paragrafos);
+            text-shadow: 3px 2px 6px var(--cor-titulos);
+            transition: .8s;
         }
         header p{
             font-size: 22px;
@@ -61,193 +66,66 @@
         text-shadow: 3px 2px 6px var(--cor-span-header);
         transition: .8s;
       }
-.container{
-display: flex;
-padding-top: 15px;
-}
-.container > div{
-height: 350px;
-width: 100%;
-margin: 15px;
-border-radius: 25px;
-box-shadow: 2px 3px 5px brown;
-text-align: center;
-padding-top: 10px;
-}
-.container ul{
-margin-top: 20px;
-}
-.container ul li{
-list-style: none;
-padding: 30px;
-}
-.container ul li a{
-color: var(--cor-titulos);
-text-decoration: none;
-padding: 18px;
-border-radius: 25px;
-font-size: 18px;
-box-shadow: 2px 3px 5px var(--cor-titulos);
-}
-.container ul li a:hover{
-color: var(--cor-span-header);
-}
-.espaco-cards{
-color: var(--cor-titulos);
-}
-section .chamada-acao{
-width: 100%;
-height: 250px;
-background-color: var(--cor-titulos);
-text-align: center;
-color: #fff;
-box-shadow: 2px 3px 5px #000;
-}
-.chamada-acao h1{
-    padding-top: 35px;
-    font-size: 35px;
-}
-.chamada-acao p{
-    padding-top: 20px;
-    font-size: 18px;
-    padding-bottom: 35px;
-}
-.chamada-acao a{
-    width: 100px;
-    height: 80px;
-    padding: 15px;
-    background-color: #fff;
-    border-radius: 30px;
-    color: var(--cor-titulos);
-    font-size: 18px;
-    text-decoration: none;
+
+      section .container{
+        display: flex;
     
-}.chamada-acao a:hover{
-    color: #000;
-    background-color: burlywood;
-}
-footer{
-   text-align: center;
-   margin-top: 10px;
-}
-footer p{
-    padding-top: 15px;
-    font-family: sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    font-size: 35px;
-    text-shadow: 2px 3px 5px #000;
-}
-footer h4{
-    padding-top: 18px;
-    font-family: sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    font-size: 25px;
-    text-shadow: 2px 3px 5px #000;
-}
-footer span{
-    padding-top: 20px;
-    font-family: sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    font-size: 35px;
-    text-shadow: 2px 3px 5px #000;
-}
-
-/*Media Queris*/
-@media screen and (max-width: 680px ) {
-
-    header > h1{
-        font-size: 60px;
-        }
-        header > p{
-            font-size: 18px;
-            padding: 25px;
-            font-size: 28px;
-            font-family: sans-serif;
-            font-weight: 500;
-            font-style: normal;
-        }
-        .container{
-            display: block;
-        }
-        .container > div{
-            height: 250px;
-            width: 620px;
-            margin: 15px;
-            border-radius: 25px;
-            box-shadow: 2px 3px 5px var(--cor-titulos);
-            text-align: center;
-            padding-top: 10px;
-            }
-} 
-@media screen and (max-width: 620px ) {
-        header h1{
-            font-size: 80px;
-            width: 100%;
-        }
-        header p{
-            font-size: 18px;
-        }
+      }
     .container > div{
-        height: 200px;
-        width: 520px;
-        margin: 15px;
-        border-radius: 25px;
-        box-shadow: 2px 3px 5px brown;
+        margin: 20px;
+        padding: 60px;
+        font-size: 30px;
+        background-color: var(--cor-span-header);
+        color: var(--cor-paragrafos);
         text-align: center;
-        padding-top: 10px;
-        }
-    .container{
-        display: grid;
+        box-shadow: 5px 3px 6px var(--cor-span-header);
+        border-radius: 20px;
+    
     }
     .container ul{
-        margin-top: 10px;
-        }
-        .container ul li{
-            display: inline-block;
-            margin: 0 auto;
-            list-style: none;
-            padding: 10px;
-            }
-            .container ul li a{
-                width: 35px;
-                height: 35px;
-                color: brown;
-                text-decoration: none;
-                border-radius: 25px;
-                box-shadow: 2px 3px 5px brown;
-                }
-   
-}
-@media screen and (max-width: 451px ){
-        header{
-            width: 400px;
-            height: 250px;
-        }
-    .container > div{
-        height: 100%;
-        width: 100%;
-        margin: 15px;
-        border-radius: 25px;
-        box-shadow: 2px 3px 5px brown;
-        text-align: center;
-        padding-top: 10px;
-        }
-    .container{
-        display: grid;
+        list-style: none;
+        display: flex;
+        padding: 10px;
     }
-    .container ul li a{
-     
-        color: brown;
+    .container ul a{
+        margin: 0  35px 0 25px;
         text-decoration: none;
-        border-radius: 25px;
-        box-shadow: 2px 3px 5px brown;
-        }
-        footer{
-            height: 100%;
-            width: 100%;
-            margin: 15px;
-        }
-}
+        color: var(--cor-titulos);
+    }
+    .container a:hover{
+        color: var(--cor-paragrafos);
+        text-shadow: 3px 2px 6px var(--cor-span-header);
+        transition: .8s;
+    }
+    .chamada-acao{
+        height: 350px;
+        width: 100%;
+        text-align: center;
+        margin-top: 5px;
+        background-color: var(--cor-titulos);
+        
+    }
+    .chamada-acao h2{
+        padding-top: 65px;
+        font-size: 100px;
+        text-shadow: 3px 2px 6px var(--cor-paragrafos);
+    }
+    .chamada-acao p{
+        padding-top: 50px;
+        font-size: 70px;
+        color: var(--cor-paragrafos);
+        text-shadow: 3px 2px 6px var(--cor-span-header);
+    }
+    footer{
+        width: 100%;
+        height: 150px;
+        margin-top: 5px;
+        background-color: var(--cor-span-header);
+        color: var(--cor-paragrafos);
+        text-align: center;
+        box-shadow: 8px 2px 6px var(--cor-span-header);
+    }
+    footer p{
+        padding-top: 25px ;
+        font-size: 35px;
+    }

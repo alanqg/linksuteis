@@ -136,3 +136,16 @@
         color: var(--cor-span-header);
         text-decoration: underline;
     }
+
+    @media screen and (max-width: 700px) {
+        .container{
+            display: flex;
+            flex-direction: column;  
+            }
+            .container h2{
+                font-size: 25px;
+            }
+            .chamada-acao p{
+                font-size: 25px;
+            }
+    }
